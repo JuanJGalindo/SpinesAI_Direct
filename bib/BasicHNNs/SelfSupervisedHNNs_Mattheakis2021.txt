@@ -1,0 +1,7 @@
+Better Hamiltonian NN formulation: 
+
+- Energy Deviation Regularization
+- Better AI surrogate compared to Low Degree Numerical Methods
+- Error Bounding Formula
+- Non-Linear and Chaotic Systems Enhanced Support, compared to vanilla HNNs
+- Self-supervised capabilities with explicit time sampling for evaluation points

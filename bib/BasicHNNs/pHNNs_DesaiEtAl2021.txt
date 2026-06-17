@@ -1,0 +1,5 @@
+Better HNN Formulation for:
+- Forced Systems
+. Damped Systems
+- Time-Dependent Hamiltonians
+- Chaotic Systems

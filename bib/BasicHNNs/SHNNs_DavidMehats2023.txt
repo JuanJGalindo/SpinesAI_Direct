@@ -1,0 +1,4 @@
+Symplectic Integrator Embedded in Loss Function Approach for HNNs:
+- Bypass lower bound error impass for original formulation
+- Permits further correction of errors
+- Limitation to Real World Data, as purely symplectic nature is not known
