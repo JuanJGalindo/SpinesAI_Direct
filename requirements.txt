@@ -1,0 +1,14 @@
+# SpinesAI_Direct — runtime dependencies for the research notebooks (flexible bounds).
+# Python 3.10+ required. For an exact, reproducible pin see requirements-lock.txt.
+#
+# PyTorch: the line below installs the default build. For a CPU-only build use:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+torch>=2.0
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.6
+
+# Notebook environment
+jupyterlab>=4.0
+ipykernel>=6.5

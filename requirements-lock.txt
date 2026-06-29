@@ -1,0 +1,15 @@
+# SpinesAI_Direct — pinned lock of the exact versions validated on 2026-06-29
+# (Windows, Python 3.14, CPU PyTorch build). Curated to the direct dependencies;
+# for a full environment snapshot run:  pip freeze > requirements-freeze.txt
+#
+# PyTorch is the CPU wheel. Install torch first from its index, then the rest:
+#   pip install torch==2.12.1 --index-url https://download.pytorch.org/whl/cpu
+#   pip install -r requirements-lock.txt
+
+torch==2.12.1
+numpy==2.4.4
+scipy==1.18.0
+matplotlib==3.11.0
+
+jupyterlab==4.6.1
+ipykernel==7.3.0
