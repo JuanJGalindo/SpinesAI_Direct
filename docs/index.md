@@ -38,4 +38,4 @@ Pretrained weights for demo mode: `Core/weights_baseline.pt`, `weights_hnn.pt`, 
 
 - [`HNNs_WorkPlan.md`](../HNNs_WorkPlan.md) — the 6-month north-star roadmap.
 - [hamiltoniannet](../../hamiltoniannet) — the library that productizes this research.
-- [`WORKSPACE_OVERVIEW.md`](../../WORKSPACE_OVERVIEW.md) — research ↔ library parallel and migration notes.
+- [`CLAUDE.md`](../../CLAUDE.md) — parent PhysicsSurrogates memory: research ↔ library authority split and shared conventions.

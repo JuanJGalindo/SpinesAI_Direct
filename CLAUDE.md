@@ -11,12 +11,12 @@ The north-star roadmap is [`HNNs_WorkPlan.md`](HNNs_WorkPlan.md) (6-month, phase
 ## Layout
 
 - **Notebooks** (pedagogical, not importable library code):
-  - `Core/HNN_Core_Benchmarks.ipynb` — **source-of-truth** reference implementation; the classes ported into `hnet` (`HNN`, `BaselineMLP`, `Sin`, integrators, `CubicSpline` data prep).
+  - `Core/HNN_Core_Benchmarks.ipynb` — consolidated physics reference implementation; the classes ported into `hnet` (`HNN`, `BaselineMLP`, `Sin`, integrators, `CubicSpline` data prep). Conceptual authority resides here; engineering authority resides in `hamiltoniannet`.
   - `SpinesIA_Direct.ipynb` — main narrative + literature landscape table.
   - `HNN_Demo.ipynb` — warm-up (regression → MLP → HNN).
   - `SpinPrecession_HNNs.ipynb` — non-canonical PoissonHNN on the S² spin system.
 - `Core/weights_baseline.pt`, `weights_hnn.pt`, `weights_selfsup.pt` — pretrained weights for **demo mode** (load instead of retraining).
-- `bib/` — 16 papers (2019–2026); `bib/Analysis/` holds the extraction notes and the literature-review protocol.
+- `bib/` — 11 papers archived as PDFs (2019–2026); `bib/Analysis/` holds the extraction notes and the literature-review protocol.
 
 ## Stack
 
@@ -39,4 +39,4 @@ PyTorch · NumPy · SciPy (`solve_ivp`, `CubicSpline`) · Matplotlib, run under 
 
 ## Related
 
-[hamiltoniannet](../hamiltoniannet) (library) · [`HNNs_WorkPlan.md`](HNNs_WorkPlan.md) · [`docs/index.md`](docs/index.md) · root [`WORKSPACE_OVERVIEW.md`](../WORKSPACE_OVERVIEW.md) (research↔library parallel).
+[hamiltoniannet](../hamiltoniannet) (library) · [`HNNs_WorkPlan.md`](HNNs_WorkPlan.md) · [`docs/index.md`](docs/index.md) · parent [`CLAUDE.md`](../CLAUDE.md) (PhysicsSurrogates memory; research↔library authority split).

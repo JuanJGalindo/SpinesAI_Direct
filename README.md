@@ -13,7 +13,7 @@
 | `SpinPrecession_HNNs.ipynb` | Non-canonical (Lie-Poisson) case: canonical HNN vs **PoissonHNN** on spin precession (S² manifold), with Casimir/energy/cosine metrics. |
 | `Core/HNN_Core_Benchmarks.ipynb` | **Source-of-truth** consolidated reference implementation (the classes the library ports). |
 | `Core/weights_*.pt` | Pretrained weights (`baseline`, `hnn`, `selfsup`) for instant demo mode without retraining. |
-| `bib/` | 16-paper literature corpus (2019–2026) + `bib/Analysis/` extraction notes and review protocol. |
+| `bib/` | Literature corpus, 11 papers archived as PDFs (2019–2026) + `bib/Analysis/` extraction notes and review protocol. |
 | `HNNs_WorkPlan.md` | The 6-month north-star roadmap that defines the library architecture and phases. |
 
 ## The models studied

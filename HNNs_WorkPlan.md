@@ -2,7 +2,7 @@
 
 ## Context
 
-Three Jupyter notebooks in `C:\Users\juanj\Desktop\WorkSpace\PhysicsSurrogates\HNNs\` contain mature, working HNN implementations across three paradigms (data-driven, Self-Supervised, non-canonical). The goal is to refactor this into a reusable, extensible Python library analogous to DeepXDE, publishable as `pip install hamiltoniannet`.
+Three Jupyter notebooks in `C:\Users\juanj\Desktop\WorkSpace\PhysicsSurrogates\SpinesAI_Direct\` contain mature, working HNN implementations across three paradigms (data-driven, Self-Supervised, non-canonical). The goal is to refactor this into a reusable, extensible Python library analogous to DeepXDE, publishable as `pip install hamiltoniannet`.
 
 HNN variants are implemented in a physically motivated pedagogical order: from simple conservative systems up to infinite-dimensional operator learning. Experiments use **Kaggle Local Benchmarks** (`kaggle-benchmarks` SDK) for reproducible, community-comparable evaluation — locally validated, then pushed to Kaggle leaderboards when ready.
 
